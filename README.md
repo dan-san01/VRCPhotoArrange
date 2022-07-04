@@ -1,4 +1,4 @@
-# あのときの思い出を。(仮) v1.0.0.7
+# あのときの思い出を。(仮) v1.0.0.8
 
 フォルダにあるPNG画像の中から、定期VRCイベントのスクリーンショットを抽出するツールです。現在はユーザーが開始時刻、終了時刻、曜日を指定し、PNG画像を抽出できる仕様です。
 
@@ -26,6 +26,7 @@
 * だん
 * danmain0101@gmail.com
 * [@danmain0101](https://twitter.com/danmain0101)
+* GitHub: https://github.com/dan-san01/VRCPhotoArrange.git
 
 
 ## ライセンス
