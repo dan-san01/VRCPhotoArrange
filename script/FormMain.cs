@@ -224,20 +224,6 @@ namespace VRCPhotoArrange
                 OutputPathTextBox.Text = outputFolderPath;
                 OutputFolderNameLabel.Text = StringTransformProcess.TransformOutputFolderLabel(Path.GetFileName(outputFolderPath));
             }
-            else if (SelectRegularEventComboBox.Text == "VRCラジオ体操")
-            {
-                StartHourSelectComboBox.Text = "6";
-                StartMinuteSelectComboBox.Text = "00";
-                WeekSelectComboBox.Text = "Everyday";
-                EndHourSelectComboBox.Text = "7";
-                EndMinuteSelectComboBox.Text = "30";
-
-                //Change output directory.
-                string outputFolderPath = Directory.GetCurrentDirectory() + @"\VRCラジオ体操";
-                OutputPathTextBox.ResetText();
-                OutputPathTextBox.Text = outputFolderPath;
-                OutputFolderNameLabel.Text = StringTransformProcess.TransformOutputFolderLabel(Path.GetFileName(outputFolderPath));
-            }
             //2. Change standby state.
             AnalysisStateTransition.InitState = false;
             AnalysisStateTransition.StandbyState = true;
